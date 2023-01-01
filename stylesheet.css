@@ -318,7 +318,6 @@ footer {
   .navbar {
     display: grid;
     grid-area: listitem;
-    border: 2px solid black;
   }
 
   .nav-searchbar {

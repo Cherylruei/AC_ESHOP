@@ -53,10 +53,21 @@ a {
   /* 拿掉底線 */
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+}
+
+
 .navbar {
   margin: 0 auto;
-  width: 90%;
   display: grid;
+  width: 100%;
+  height: 60px;
   grid-template-columns: 0px 50px 50px 1fr 100px;
   grid-auto-flow: row;
   padding: 5px;
@@ -77,6 +88,7 @@ a {
 
     .logo-title {
       color: $primary-color;
+      white-space: nowrap;
     }
   }
 
@@ -181,7 +193,7 @@ a {
 
 .category {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
   color: $primary-color;
 
   .dropdown {
@@ -202,6 +214,7 @@ a {
 .main {
   width: 90%;
   margin: 0 auto;
+  color: $primary-color;
 }
 
 .cards {
@@ -303,6 +316,56 @@ a {
   left: -100%;
 }
 
+.pagination {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  background-image: url(https://assets-lighthouse.alphacamp.co/uploads/image/file/14376/template.png);
+  background-position: center;
+
+  .newsletter-title {
+    margin: 20px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .input-group {
+
+    input {
+      border-radius: 50px;
+      border: transparent;
+      padding: 20px;
+    }
+
+    .newsletter-email {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .newsletter-signup {
+      background-color: black;
+      color: #fff;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+}
+
+
+
+footer {
+  text-align: center;
+  background-color: #e0e0e0;
+}
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -354,5 +417,10 @@ a {
 
   .cards {
     grid-template-columns: repeat(4, 1fr)
+  }
+
+  .newsletter {
+    margin: 0 50px;
+    background-size: cover;
   }
 }
