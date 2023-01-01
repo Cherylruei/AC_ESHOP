@@ -139,9 +139,9 @@ header {
 
   .nav-item {
     margin: 0 auto;
-    border: 1px solid rgba(128, 128, 128, 0.2);
     border-radius: 2px;
     opacity: 0;
+    background-color: white;
 
     a {
       display: block;
@@ -170,7 +170,7 @@ header {
   .hamburger::after {
     display: block;
     width: 30px;
-    height: 1px;
+    height: 3px;
     background-color: $primary-color;
   }
 
@@ -318,6 +318,7 @@ header {
 
 .pagination {
   display: flex !important;
+  //待找到更好的方式將頁數置中蓋過bootstrap樣式display: block，試過position: absolute較麻煩
   align-items: center;
   justify-content: center;
 }
