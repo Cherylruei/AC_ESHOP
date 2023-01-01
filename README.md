@@ -1,20 +1,26 @@
 
 # Project Title
-T-shirts Eshop
+T-shirts Eshop 電商網頁切版
 
 # Screenshot
 <!-- Add banner here -->
-Mobile-version
+Mobile-version 手機版本
 
 ![image](mobile-version.jpg)
 
-Tablet-version
+Tablet-version 平板版本 (min-width: 768px)
 
 ![image](tablet-version.jpg)
 
 <!-- Add buttons here -->
 
 <!-- Describe your project in brief -->
+This is a T-shirts eshop practice using web technologies (HTML and CSS/SCSS). It includes mobile version and tablet version.
+Please check the demo  to see more details.
+
+這是一個T-shirts電商平台的切版練習，使用到 HTML以及CSS/SCSS。此網頁包含了手機以及平板版本。
+請透過下方Demo看更多詳細內容。
+註解: SCSS 部分待優化中
 
 <!-- The project title should be self explanotory and try not to make it a mouthful. (Although exceptions exist- **awesome-readme-writing-guide-for-open-source-projects** - would have been a cool name)
 
@@ -53,6 +59,8 @@ I use [**Shields IO**](https://shields.io/) for making badges. It is a simple an
 
 <!-- Add a demo for your project -->
 
+https://cherylruei.github.io/AC_ESHOP/
+
 <!-- After you have written about your project, it is a good idea to have a demo/preview(**video/gif/screenshots** are good options) of your project so that people can know what to expect in your project. You could also add the demo in the previous section with the product description.
 
 Here is a random GIF as a placeholder.
@@ -72,10 +80,6 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 - [Usage](#usage)
 - [Development](#development)
 - [Contribute](#contribute)
-    - [Sponsor](#sponsor)
-    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
-- [License](#license)
-- [Footer](#footer)
 
 # Installation
 [(Back to top)](#table-of-contents)
