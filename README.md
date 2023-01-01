@@ -1,10 +1,16 @@
-<!-- Add banner here -->
-Mobile-version
-https://i.imgur.com/CPLn4bv.gif
-Tablet-version
-https://i.imgur.com/nEcbYvU.gif
 
 # Project Title
+T-shirts Eshop
+
+# Screenshot
+<!-- Add banner here -->
+Mobile-version
+
+![image](mobile-version.jpg)
+
+Tablet-version
+
+![image](tablet-version.jpg)
 
 <!-- Add buttons here -->
 
